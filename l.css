@@ -1,0 +1,228 @@
+body{
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    max-width: max-content;
+    height: 1100px;
+    margin: 0 auto;
+}
+.topic{
+        margin-left: 20px;
+        padding: 20px;
+        font-family: "Black Han Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        display: flex;
+        font-size: xx-large;
+      
+}
+.navi{
+    
+    font-family: "Acme", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+table,.topic,ul,li{
+    display: flex;
+}
+.n{
+    padding-top: 20px;
+    margin-top: 10px;
+    padding: 20px;
+
+}
+.n:hover{
+    color: blue;
+    cursor: pointer;
+}
+.cart{
+    position: relative;
+}
+.cart,.user{
+    margin-top: 20px;
+    padding-top: 15px;
+    height:fit-content;
+    width: fit-content;
+    padding: 15px;
+    border: none;
+    border-radius: 100%;
+    background-color: blue;
+    border-style: solid;
+    display: flex;
+    box-sizing: border-box;
+    color: white; 
+    margin-left: 20px;
+}
+,user{
+    margin-left: 10px;
+}
+input{
+    height: 20px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 10.7px;
+    display: flex;
+    flex: 2;
+    margin-right: 0px;
+    background-color: rgb(234, 234, 234);
+    border-color: darkgrey;
+
+}
+.searchbutton{
+    margin-left: -5px;
+    float:left;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex: 1;
+    padding: 14.2px;
+    margin-top: 29.8px;
+    color: blue;
+    border-color: darkgrey;
+}
+button:hover{
+    color: white;
+    background-color: blue;
+}
+.searchbar{
+    display: flex;
+    align: right;
+}
+.badge{
+    background-color: yellow;
+    color: black;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: yellow;
+    height: 7px;
+    width: 13px;
+    padding-bottom: 6px;  
+    position: absolute;
+    top: -3.5px;
+    left: -1.5px;
+}
+.mynum{
+    padding-bottom: 4px;
+    padding-left: 2.5px;  
+}
+.stat_logo{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.c1{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  padding-left: 200px;
+  font-size:x-large;
+}
+.c2{
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;  
+        padding-left: 200px;
+}
+.bc{
+    display: flexbox;
+}
+.c3{
+    padding-left: 200px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size:medium;
+}
+.explorebutton{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex: 1;
+    padding: 14.2px;
+    margin-top: 29.8px;
+    margin-left: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+    border-color: white;
+}
+.explorebutton:hover{
+    background-color: white;
+    color: blue;
+}
+.p_background{
+    margin: 180px;
+    height: 340px;
+    width: 340px;
+    background-color: blue;
+    border-radius: 100%;
+    margin-bottom: 0px;
+    position: relative;
+}
+.piechart{
+    height: 160px;
+    width: 140px;
+    background-color: white;
+    position: absolute;
+    left: 240px;
+    border-radius: 20%;
+    border-color: white;
+    border-style: solid;
+    top: -80px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.piechartin{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-image: conic-gradient(
+        yellow 130deg,
+        blue 0   
+    );
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.abovepie{
+    margin-top: 20px;
+    position: absolute;
+    top: -15px;
+    font-family: "Acme", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: small;
+    margin-left: -15px;
+}
+.process{
+    font-family: "Acme", sans-serif;
+    font-size: x-small;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.box2{
+    height: 160px;
+    width: 210px;
+    background-color: white;
+    position: absolute;
+    border-radius: 20%;
+    border-color: white;
+    border-style: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    top: 550px;
+    right: 550px;   
+}
+.bottomtoimg{
+    position: absolute;
+    top: 550px;
+    left: 760px;
+}
