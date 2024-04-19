@@ -1,6 +1,5 @@
 body{
     align-items: center;
-    display: block;
     background-color: white;
     color: black;
     border-width: 5px;
@@ -8,8 +7,7 @@ body{
     border-style: solid;
     max-width: max-content;
     height: 1100px;
-    margin: auto;
-    justify-content: space-around;
+    margin: 0 auto;
 }
 .topic{
         margin-left: 20px;
@@ -221,15 +219,10 @@ button:hover{
     border-style: solid;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     top: 550px;
-    right: 680px;   
+    right: 550px;   
 }
 .bottomtoimg{
     position: absolute;
     top: 550px;
     left: 760px;
-    margin-left: 200px;
-}
-.last{
-    margin-bottom: 500px;
-    margin-top: 0px;
 }
